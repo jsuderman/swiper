@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 import Header from "./components/Header/Header";
+import ProfileCards from "./components/ProfileCards/ProfileCards";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
      {/* header */}
      <Header />
      {/* Cards */}
+     <ProfileCards />
      {/* toggle buttons */}
     </div>
   );
