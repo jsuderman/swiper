@@ -9,12 +9,10 @@ function App() {
   return (
     <div className="app">
      
-
-     {/* header */}
      <Header />
-     {/* Cards */}
+     
      <ProfileCards />
-     {/* toggle buttons */}
+     
      <SwipeButtons />
     </div>
   );
